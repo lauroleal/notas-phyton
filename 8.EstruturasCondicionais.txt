@@ -1,0 +1,55 @@
+#Estruturas Condicionais
+
+
+==	Igualdade	Verifica a igualdade entre dois valores.
+!=  	Igualdade  	Verifica a diferença entre dois valores.
+> 	Comparação	Verificar se o valor A é maior que o valor B.
+< 	Comparação	Verifica se o valor A é menor que o valor B.
+>=	Comparação	Verifica se o valor A é maior ou igual ao valor B.
+<=	Comparação	Verifica se o valor A é menor ou igual ao valor B.
+In	Seqüência	Verifica se o valor A está contido em um conjunto.
+
+
+
+
+#condicional if else
+
+
+a = 10
+b = 15
+soma = a + b
+
+if soma >= a:
+    print("soma e maior que a")
+else:
+    print("soma e menor que a")
+
+#SAIDA
+
+soma e maior que a
+_______________________________________________________
+
+
+#condicional elif (executa a primeira condição verdadeira que encontrar) 
+
+a = 10
+b = 15
+soma = a + b
+
+#condicional elif
+if soma <= a:
+    print("soma e maior que a")
+elif soma >= b:
+    print("soma e maior que b")
+elif soma == b:
+    print("soma e igual a b")
+else:
+    print("soma e menor que a")
+
+#SAIDA
+
+soma e maior que a
+__________________________________________________________
+
+
+

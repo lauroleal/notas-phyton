@@ -1,0 +1,106 @@
+ex 1:
+
+from datetime import date, time, datetime
+
+data_tual = date.today()
+print(data_tual)
+#criando uma mascara pra a data ser apresentada y para 20 Y para 2020
+print(data_tual.strftime('%d/%m/%y'))
+#A = dia da semana B para mes por extenso
+print(data_tual.strftime('%A de %B de %Y'))
+#transformando em string
+data_tual_str = data_tual.strftime('%A de %B de %Y')
+
+#saida
+
+2020-04-02
+02/04/20
+Thursday de April de 2020
+
+__________________________________________________________
+
+ex 2:
+
+from datetime import date, time, datetime
+
+def trabalhando_com_dateTime():
+    data_atual = datetime.now()
+    print(type(data_atual))
+    print(data_atual)
+    atual_data = data_atual.strftime('%A de %B de %Y ás %H:%M:%S')
+    print(atual_data)
+    tuple = ('segunda','terça','quarta','quinta','sexta','sabado','domingo')
+    print(tuple[data_atual.weekday()])
+
+if __name__ == '__main__':
+    trabalhando_com_date()
+
+#saida
+
+
+2020-04-02
+<class 'datetime.date'>
+Thursday de April de 2020
+<class 'str'>
+
+_________________________________________________________
+
+ex 3:
+
+from datetime import date, time, datetime
+
+def trabalhando_com_date():
+    data_atual = date.today()
+    data_atual_str = data_atual.strftime('%A de %B de %Y')
+    print(data_atual)
+    print(type(data_atual))
+    print(data_atual_str)
+    print(type(data_atual_str))
+
+if __name__ == '__main__':
+trabalhando_com_dateTime()
+
+#saida
+
+<class 'datetime.datetime'>
+2020-04-02 04:59:38.305040
+Thursday de April de 2020 ás 04:59:38
+quinta
+
+_____________________________________________________________
+
+ex 4:
+
+from datetime import date, time, datetime
+
+def trabalhando_com_time ():
+    hora = time(hour=15, minute=18, second=30)
+    print(hora.strftime('%H:%M:%S'))
+
+if __name__ == '__main__':
+    trabalhando_com_time ()
+ 
+#saida
+
+15:18:30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

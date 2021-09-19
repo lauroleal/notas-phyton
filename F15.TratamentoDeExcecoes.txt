@@ -1,0 +1,17 @@
+
+#tratamento de exceções
+
+
+ex 1
+
+a = 20
+b = 0
+
+try:
+    print(a/b)
+except:
+    print("não e possivel essa operação")
+
+#saida
+
+não e possivel essa operação

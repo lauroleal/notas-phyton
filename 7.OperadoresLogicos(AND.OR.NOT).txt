@@ -1,0 +1,38 @@
+#Operadores relacionais and not or
+
+
+==	Igualdade	Verifica a igualdade entre dois valores.
+!=  	Igualdade  	Verifica a diferença entre dois valores.
+> 	Comparação	Verificar se o valor A é maior que o valor B.
+< 	Comparação	Verifica se o valor A é menor que o valor B.
+>=	Comparação	Verifica se o valor A é maior ou igual ao valor B.
+<=	Comparação	Verifica se o valor A é menor ou igual ao valor B.
+
+
+
+a = 10
+b = 5
+soma = a + b
+
+
+#Operador relacional: AND equivalente e
+print(soma > a and a > b)
+
+#Operador relacional: OR equivalente ou
+print(soma > a or a < b)
+
+#Operador relacional: NOT equivalente não / nega a proposição
+print (not (soma > a))
+
+
+
+#SAIDA
+
+Operador relacional: AND equivalente e
+True
+
+Operador relacional: OR equivalente ou
+True
+
+Operador relacional: NOT equivalente não nega a proposição
+False

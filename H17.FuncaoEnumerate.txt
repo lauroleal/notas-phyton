@@ -1,0 +1,38 @@
+Serve para percorrer os elementos de uma lista utilizando o for in. 
+
+
+
+ex 1:
+
+#sem enumerate
+
+a = ["bola","casa","oi","bom","ruim"]
+
+for indice in range(len(a)):
+    print(indice, a[i])
+
+#saída
+
+0 bola
+1 casa
+2 oi
+3 bom
+4 ruim
+
+
+ex 2:
+
+#com enumerate
+
+a = ["bola","casa","oi","bom","ruim"]
+
+for indice, nome in enumerate (a):
+    print(indice, nome)
+
+#saída
+
+0 bola
+1 casa
+2 oi
+3 bom
+4 ruim

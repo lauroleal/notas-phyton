@@ -1,0 +1,33 @@
+#Entrada de Dados
+
+# Recebendo textos
+meu_texto = input("Digite um texto: ")
+
+print("Digite seu nome:")
+nome = input()
+
+# Recebendo números
+numero_inteiro = int(input("Digite um numero inteiro: "))
+numero_decimal = float(input("Digite um numero decimal: "))
+
+# Recebendo true ou false
+boleano = bool(input("Digite um numero boleano: "))
+
+
+
+print(meu_texto,nome,numero_inteiro,numero_decimal,boleano)
+
+#SAIDA
+
+Digite um texto: oi
+
+Digite seu nome:
+lauro
+
+Digite um numero inteiro: 3
+
+Digite um numero decimal: 3.5
+
+Digite um numero boleano: true
+
+oi lauro 3 3.5 true

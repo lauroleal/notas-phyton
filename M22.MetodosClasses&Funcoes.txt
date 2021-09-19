@@ -1,0 +1,91 @@
+Classes : define uma estrutura de dados que contenha instância de atributos, instância de métodos e classes aninhadas.
+Objetos: são instanciados pelas classes. Cada instância (objeto)
+Métodos: funções definidas dentro de uma classe são chamadas de métodos.
+
+ex 1:
+
+class calcula:
+
+    #toda vez que a classe calcula for iniciada, o primeiro metado a ser chamado/
+    # evocado e o __init__ onde vai receber os valores das variaveis 
+    # self pra referenciar o objeto
+    def __init__(self, numero_1, numero_2):
+        self.valor_1 = numero_1
+        self.valor_2 = numero_2
+    def soma (self):
+        return self.valor_1 + self.valor_2
+    def multiplicacao (self):
+        return self.valor_1 * self.valor_2
+    def divisao (self):
+        return self.valor_1 / self.valor_2
+    def subtracao(self):
+        return self.valor_1 - self.valor_2
+
+#instanciando uma classe
+numero_1 = int(input("digite o 1 valor: "))
+numero_2 = int(input("digite o 2 valor: 5"))
+calculadora = calcula(numero_1,numero_2)
+print(calculadora.soma())
+print(calculadora.subtracao())
+print(calculadora.divisao())
+print(calculadora.multiplicacao())
+
+
+#saída
+
+digite o 1 valor: 55
+digite o 2 valor: 5
+60
+50
+11.0
+275
+
+________________________________________________________________
+
+
+ex 2:
+
+class Tv:
+
+    def __init__(self):
+        self.ligada = False
+        self.troca_canal = 5
+    def ligar (self):
+        if self.ligada:
+            self.ligada = False
+        else:
+            self.ligada = True
+    def aumenta_canal (self):
+        if self.ligada:
+            self.troca_canal += 1
+    def diminui_canal (self):
+        if self.ligada:
+            self.troca_canal -= 1
+
+#instanciando a classe
+
+televisao = Tv()
+print("televisão está ligada? ",televisao.ligada)
+televisao.ligar()
+print("televisão está ligada? ",televisao.ligada)
+print("qual o canal que estamos? ",televisao.troca_canal)
+televisao.aumenta_canal()
+print("qual o canal que estamos? ",televisao.troca_canal)
+televisao.diminui_canal()
+print("qual o canal que estamos? ",televisao.troca_canal)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

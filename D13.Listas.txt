@@ -1,0 +1,164 @@
+      
+         Uma lista é um conjunto de dados composta por itens organizados de forma linear, na qual cada um pode ser acessado a partir de um índice, 
+que representa sua posição na coleção (iniciando em zero).
+
+Listas podem ser:
+
+numérica a = [1,2,3,4,5,6]
+strings b = ["um","dois","três","quatro"]
+
+ex 1:
+
+lista_1 = [1,2,3,4,5]
+lista_2 = ["um","dois","três","quatro"]
+lista_3 = ["um","dois",1,2]
+
+print("lista numérica:",lista_1)
+print("lista de string:",lista_2)
+print("lista mista:",lista_3)
+
+#saída
+
+lista numerica: [1, 2, 3, 4, 5]
+lista de string: ['um', 'dois', 'tres', 'quatro']
+lista mista: ['um', 'dois', 1, 2]
+_________________________________________________________________________
+ex 2:
+
+#buscando um elemento da lista pelo índice
+print("o indice digitado corresponde ao item:", lista_2[2],"da lista")
+
+#saída
+
+o indice digitado corresponde ao item: tres da lista
+__________________________________________________________________________
+ex 3:
+
+#usando um for
+
+for itens in lista_2:
+    print(itens)
+
+
+#saída
+
+um
+dois
+tres
+quatro
+_____________________________________________________________________________
+ex 4:
+
+#descobrir o tamanho das listas
+
+tamanho = len(lista_2)
+print(tamanho)
+
+#saída
+
+4
+______________________________________________________________________________
+ex 5:
+
+#adicionando itens a lista
+
+lista_2.append("bola")
+print(lista_2)
+
+#saída
+
+['um', 'dois', 'tres', 'quatro', 'bola']
+
+________________________________________________________________________________
+ex 6:
+
+#descobrindo ser um determinado valor esta na lista
+
+if "dois" in lista_2:
+    print("esta na lista")
+else:
+    print("não está na lita")
+
+#saída
+
+esta na lista
+
+
+if 2 in lista_1:
+    print("esta na lista")
+else:
+    print("não está na lita")
+
+#saída
+
+esta na lista
+
+_______________________________________________________________________________
+
+ex 7:
+
+#removendo itens da lista
+# [2:] remove do índice 2 até o ultimo índice da lista
+#[:] apaga a lista toda
+
+print("Antes:",lista_2)
+del lista_2[3]
+print("Depois:",lista_2)
+
+#saída
+
+Antes: ['um', 'dois', 'tres', 'quatro', 'bola']
+Depois: ['um', 'dois', 'tres', 'bola']
+
+_______________________________________________________________________________
+ex 8:
+#ordenar listas
+
+print("Antes:",lista_1)
+lista_1.sort()
+print("Depois:",lista_1)
+
+#saída
+
+Antes: [5, 4, 3, 7, 8, 23, 12, 17]
+Depois: [3, 4, 5, 7, 8, 12, 17, 23]
+
+______________________________________________________________________________
+ex 9:
+
+#ordenar lista ordem decrescente
+
+print("Antes:",lista_1)
+lista_1.sort(reverse=True)
+print("Depois:",lista_1)
+
+#saída
+
+Antes: [5, 4, 3, 7, 8, 23, 12, 17]
+Depois: [23, 17, 12, 8, 7, 5, 4, 3]
+
+_______________________________________________________________________________
+
+ex 10:
+
+#invertendo os valores da lista
+
+print("Antes:",lista_1)
+lista_1.reverse()
+print("Depois:",lista_1)
+
+#saída
+
+Antes: [5, 4, 3, 7, 8, 23, 12, 17]
+Depois: [17, 12, 23, 8, 7, 3, 4, 5]
+
+
+
+
+
+
+
+
+
+
+

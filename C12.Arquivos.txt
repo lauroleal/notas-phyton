@@ -1,0 +1,115 @@
+#Arquivos
+
+Abrir e fechar um arquivo:
+
+Método      Ação
+  open      Abre um arquivo
+  close     Fecha um arquivo
+
+
+ex:
+
+
+ arquivo = open('nome-do-arquivo')
+
+ arquivo.close()
+______________________________________________________________
+
+Abrir um arquivo + Função:
+
+Método                       Função
+ ('r')                          Permissão para somente leitura
+ ('w')                        Com permissão de escrita / caso o arquivo exista ele vai apagar o arquivo / caso não exista ele irá criar um novo arquivo 
+ ('a')                         Leitura e escrita / criar um novo arquivo / atualiza o arquivo
+ ('r+')                        Leitura e escrita
+('w+')                       Escrita / caso o arquivo exista ele vai apagar o arquivo / caso não exista ele irá criar um novo arquivo
+('a+')                        Leitura e escrita / atualiza o arquivo
+
+
+
+ex: 
+
+arquivo = open('nome-do-arquivo', 'r')
+
+arquivo = open('nome-do-arquivo', 'w')
+
+___________________________________________________________
+
+
+Lendo um arquivo:
+
+
+Método                             Função
+read()                             Ler arquivo Inteiro
+readline()                       Ler uma linha
+readlines()                     Ler os arquivos e o armazena em uma lista
+write()                            Escrever no arquivo
+
+ex 1: 
+
+arquivop = open("..\lauro\Desktop\Lauro\Prog\Python\lauro.txt")
+NaMesmaLinha = arquivop.readlines()
+print(NaMesmaLinha)
+
+#SAÍDA
+
+['arquivo em python\n', 'linha 2\n', 'linha 3\n', 'linha 4\n', 'linha 5']
+
+ex 2:
+
+arquivop = open("..\lauro\Desktop\Lauro\Prog\Python\lauro.txt")
+NaMesmaLinha = arquivop.readlines()
+
+for linhaPorLinha in NaMesmaLinha:
+    print(linhaPorLinha)
+
+#SAÍDA
+
+arquivo em python
+
+linha 2
+
+linha 3
+
+linha 4
+
+linha 5
+
+ex 3:
+
+arquivop = open("..\lucas\Desktop\Lauro\Prog\Python\lauro.txt")
+TextoCompleto = arquivop.read()
+print(TextoCompleto)
+
+#SAÍDA
+
+arquivo em python
+linha 2
+linha 3
+linha 4
+linha 5
+
+____________________________________________________________
+
+#Criando um arquivo
+
+novo_arquivo = open("arquivo2.txt",'w')
+#Escrever no arquivo
+novo_arquivo.write("adicionando uma linha no arquivo texto")
+#fechando o arquivo
+novo_arquivo.close()
+
+#Abrindo e exibindo o arquivo criado
+
+novo_arquivo = open("arquivo2.txt")
+ler_o_arquivo = novo_arquivo.read()
+print(ler_o_arquivo)
+novo_arquivo.close()
+
+#SAÍDA
+
+adicionando uma linha no arquivo texto
+
+
+
+

@@ -1,0 +1,67 @@
+#Operadores Relacionais / Comparativos
+
+
+
+==	Igualdade	Verifica a igualdade entre dois valores.
+!=  	Igualdade  	Verifica a diferença entre dois valores.
+> 	Comparação	Verificar se o valor A é maior que o valor B.
+< 	Comparação	Verifica se o valor A é menor que o valor B.
+>=	Comparação	Verifica se o valor A é maior ou igual ao valor B.
+<=	Comparação	Verifica se o valor A é menor ou igual ao valor B.
+
+
+a = 10
+b = 5
+
+soma = a + b
+# a maior que b
+print("a maior que b")
+print(a>b) 
+
+# a menor que b
+print("a menor que b")
+print(a<b) 
+
+# a maior ou igual a b
+print("a maior ou igual a b")
+print(a>=b) 
+
+# a menor ou igual a b
+print("a menor ou igual a b")
+print(a<=b)
+
+# a e igual a b
+print("a e igual a b")
+print(a==b) 
+
+# a e diferente de b
+print("a e diferente de b")
+print(a!=b) 
+
+
+# palavras-chaves True e False são constantes que armazenam os número 1 e 0 respectivamente.
+print( 1 == True )
+print( 0 == False )
+
+#SAIDA
+
+a maior que b
+True
+
+a menor que b
+False
+
+a maior ou igual a b
+True
+
+a menor ou igual a b
+False
+
+a e igual a b
+False
+
+a e diferente de b
+True
+
+True
+True

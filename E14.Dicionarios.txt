@@ -1,0 +1,29 @@
+
+dicionario = {"Chave":"VALOR"}
+
+
+ex 1:
+
+#criando um dicionario
+dicionario = {"A":"amor","B":"bola","C":"casa"}
+print(dicionario["A"])
+
+#saida
+
+amor
+
+_________________________________________________________________________________
+ex 2:
+
+#imprimindo um dicionario
+
+for val in dicionario:
+    print(val, dicionario[val])
+
+#saida
+
+A amor
+B bola
+C casa
+
+____________________________________________________________________________

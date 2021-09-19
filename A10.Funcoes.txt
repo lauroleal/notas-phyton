@@ -1,0 +1,80 @@
+#Funções
+
+#Função Soma
+
+def soma (d,g):
+    return d + g
+
+s = soma(3, 4)
+print("A soma é:",s)
+
+#SAIDA
+
+A soma é: 7
+____________________________________________________
+
+#Função multiplicação
+
+def multiplicacao (d,g):
+    return d * g
+
+m = multiplicacao(3, 4)
+print("A multiplicação é:",m)
+
+#SAIDA
+
+A multiplicação é: 12
+____________________________________________________
+
+#Função Divisão
+def divisao (d,g):
+    return d / g
+
+d = divisao(3, 4)
+print("A divisão é:",d)
+
+#SAIDA
+
+A divisão é: 0.75
+____________________________________________________
+
+#Função Subtração
+def subtracao(d,g):
+    return d - g
+
+s = subtracao(3, 4)
+print("A subtração é:",s)
+
+#SAIDA
+
+A subtração é: -1
+______________________________________________________
+
+#Função exponenciação
+def expoenciacao(d,g):
+    return d ** g
+
+ex = expoenciacao(3, 4)
+print("A exponenciação é:",ex)
+
+#SAIDA
+
+A exponenciação é: 81
+_______________________________________________________
+
+#Função Modulo
+def modulo(d,g):
+    return d % g
+
+mod = modulo(3, 4)
+print("O resto da divisão é:",mod)
+
+#SAIDA
+
+O resto da divisão é: 3
+________________________________________________________
+
+#Concatenar Funções
+print(modulo(s,d))
+
+

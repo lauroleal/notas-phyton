@@ -1,0 +1,30 @@
+# variavel interira
+va1 = 1 
+
+# variavel float
+va2 = 4.5 
+
+# variavel estring
+va3 = "texto" 
+
+# variavel boolen
+va4 = True 
+
+# variavel boolen
+va5 = false
+
+
+print("variavel interira")
+print(va1)
+
+print("variavel float")
+print(va2)
+
+print("variavel estring")
+print(va3)
+
+print("variavel boolen")
+print(va4)
+
+print("variavel boolen")
+print(va5)

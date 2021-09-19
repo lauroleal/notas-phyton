@@ -1,0 +1,19 @@
+
+ex 1:
+
+#Lambda / função anonima
+
+soma = lambda a,b: a + b
+multi = lambda a,b: a * b
+divisao = lambda a,b: a / b
+sub = lambda a,b: a - b
+
+print(soma(5,40))
+print(multi(5,40))
+print(divisao(5,40))
+print(sub(5,40))
+
+>>> 45
+       200
+       0.125
+        -35

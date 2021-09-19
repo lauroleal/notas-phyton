@@ -1,0 +1,139 @@
+# Estruturas De Repetição
+
+
+Operador	           Tipo	             Valor
+   ==	              Igualdade	        Verifica a igualdade entre dois valores.
+   !=  	      Igualdade  	Verifica a diferença entre dois valores.
+    > 	             Comparação	Verificar se o valor A é maior que o valor B.
+   < 	             Comparação	Verifica se o valor A é menor que o valor B.
+  >=	             Comparação	Verifica se o valor A é maior ou igual ao valor B.
+  <=	             Comparação	Verifica se o valor A é menor ou igual ao valor B.
+   In               Seqüência	        Verifica se o valor A está contido em um conjunto.
+
+
+
+
+#Laço de repetição While
+
+contador = 1
+while contador <= 10:
+    print(z)
+    contador += 1
+
+#SAIDA
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+____________________________________________________________
+
+#Laço de repetição While  else
+
+contador = 0
+while (contador < 10):
+      print(contador)
+      contador = contador + 1
+else:
+      print("O loop while foi encerrado com sucesso!")
+
+#SAIDA
+
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+O loop while foi encerrado com sucesso!
+
+__________________________________________________________________
+
+#Laço de repetição FOR varrer listas (ler dados armazenados em lista)
+
+#repetição FOR com uma lista
+lista = [1,2,3,"lauro", "lauro leal", True, False,"pilha"]
+for r in lista:
+    print(r)
+
+#SAIDA
+
+1
+2
+3
+lauro
+lauro leal
+True
+False
+pilha
+
+____________________________________________________
+
+#Laço de repetição FOR com range
+#imprime na tela 5 números de 0 a 4
+
+for r in range(5):
+    print(r)
+
+#SAIDA
+
+0
+1
+2
+3
+4
+
+_____________________________________________________
+
+#imprime na tela 5 números começando do número 5 até 9
+for r in range(5,10):
+    print(r)
+
+#SAIDA
+
+5
+6
+7
+8
+9
+______________________________________________________
+
+
+
+#imprime na tela 5 números começando do número 5 até 40 de 3 em 3
+for r in range(5,40,3):
+    print(r)
+
+
+#SAIDA
+
+5
+8
+11
+14
+17
+20
+23
+26
+29
+32
+35
+38
+
+
+
+
+
+
+

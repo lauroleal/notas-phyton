@@ -1,0 +1,111 @@
+#Concatenação de string
+nome = "Lauro"
+sobrenome = "Leal"
+concatenar = nome + " " + sobrenome
+print(concatenar)
+
+#SAÍDA
+
+Lauro Leal
+
+__________________________________________________________
+
+#descobrir tamanho da string
+nome = "Lauro"
+sobrenome = "Leal"
+concatenar = nome + " " + sobrenome
+tamanho = len(concatenar)
+print(tamanho)
+
+#SAÍDA
+
+10
+___________________________________________________________
+
+#exibe as  letras da estring na posição que foram armazenadas na variável
+nome = "Lauro"
+print(nome[3])
+print(nome[2])
+print(nome[0])
+
+#SAÍDA
+
+r
+u
+L
+_____________________________________________________________
+
+#exibe as  letras da estring na posição que foram armazenadas na variável numa determinada sequencia 
+nome = "Lauro"
+sobrenome = "Leal"
+concatenar = nome + " " + sobrenome
+print(concatenar[0:7])
+
+#SAÍDA
+
+Lauro L
+______________________________________________________________
+
+#deixar em minusculo o que esta armazenado na variável
+nome = "Lauro"
+sobrenome = "Leal"
+concatenar = nome + " " + sobrenome
+print(concatenar.lower())
+
+#SAÍDA
+
+lauro leal
+_____________________________________________________
+
+# deixar em Maiusculo o que esta armazenado na variável
+nome = "Lauro"
+sobrenome = "Leal"
+concatenar = nome + " " + sobrenome
+print(concatenar.upper())
+
+
+#SAÍDA
+
+LAURO LEAL
+____________________________________________________
+
+
+#usando função string Split / removendo letras
+frase = "não devemos sair de casa para trabalhar por causa do corona"
+print(frase)
+frase = frase.split("a")
+print(frase)
+
+#SAÍDA
+
+['não devemos s', 'ir de c', 's', ' p', 'r', ' tr', 'b', 'lh', 'r por c', 'us', ' do coron', '']
+________________________________________________________
+#Busca por string
+frase2 = "não devemos sair de casa para trabalhar por causa do corona"
+busca = frase2.find("sair")
+print(busca)
+# só ira mostrar o conteúdo após a variável busca 
+print(frase2[busca:])
+
+#SAÍDA
+
+Busca por string
+12
+sair de casa para trabalhar por causa do corona
+
+__________________________________________________________
+
+#subistituir parte de uma string
+frase2 = "não devemos sair de casa para trabalhar por causa do corona"
+print(frase2)
+frase2 = frase2.replace("não devemos","devemos")
+print(frase2)
+
+#SAÍDA
+
+não devemos sair de casa para trabalhar por causa do corona
+devemos sair de casa para trabalhar por causa do corona
+
+
+
+

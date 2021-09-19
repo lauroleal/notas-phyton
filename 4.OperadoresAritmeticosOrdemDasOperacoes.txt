@@ -1,0 +1,75 @@
+#Ordem de precedência das Operações
+
+()  Parênteses 
+**  Exponenciação 
+* /  Multiplicação e divisão (mesma precedência)
++ -  Adição e subtração (mesma precedência)
+
+
+
+# 1 Parênteses têm a mais alta precedência e pode ser usada para forçar que uma expressão seja calculada na ordem que você deseja. 
+
+a = 2*(3-1) 
+b = (1+1)**(5-2) 
+
+print("valor de a:",a)
+print("valor de b:",b)
+
+#SAIDA
+
+valor de a: 4
+valor de b: 8
+
+# 2 Exponenciação tem a segunda precedência mais alta,
+
+a = 2**1+1 
+b = 3*1**3  
+print("valor de a:",a)
+print("valor de b:",b)
+
+#SAIDA
+
+valor de a: 3
+valor de b: 3
+
+ # 3 Multiplicação e divisões têm a mesma precedência (Operadores com a mesma precedência são executados da esquerda para a direita)
+
+a = 2*3-1
+b = 5-2*2
+c = 4/2+1
+d = 5+2/2
+print("valor de a:",a)
+print("valor de b:",b)
+print("valor de c:",c)
+print("valor de d:",d)
+
+#SAIDA
+
+valor de a: 5
+valor de b: 1
+valor de c: 3.0
+valor de d: 6.0
+
+
+# 4 Adição  e subtração (Operadores com a mesma precedência são executados da esquerda para a direita)
+
+a = 2+3-1
+b = 5-2+2
+c = 4-2+1
+d = 5+2-2
+print("valor de a:",a)
+print("valor de b:",b)
+print("valor de c:",c)
+print("valor de d:",d)
+
+#SAIDA
+
+valor de a: 4
+valor de b: 5
+valor de c: 3
+valor de d: 5
+
+
+
+
+

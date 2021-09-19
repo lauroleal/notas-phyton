@@ -1,0 +1,33 @@
+
+A função Filter pega uma lista e aplica uma regra, onde compara cada elemento da lista contra a regra de filtragem booleana.
+ Uma vez aplicada a condição, retorna um subconjunto da lista original.
+
+
+ex 1:
+
+#Função Filter
+
+def par(i):
+    if i%2==0:
+        return 1
+
+
+lista =[1,2,3,4,5,6,7,8,9]
+lista_par = filter(par,lista)
+print(list(lista_par))
+
+#saida
+
+[2, 4, 6, 8]
+
+__________________
+
+ex 2:
+
+numeros = [1, 2, 3, 4, 5]
+valor = list(filter(lambda x: x >= 3, numeros))
+print(valor)
+
+#saida
+
+[3, 4, 5]

@@ -1,0 +1,48 @@
+#Operadores Aritméticos / matemáticas
+
+a = 2
+b = 2
+
+# soma
+print("soma a + b") 
+print(a + b) 
+
+ # divisão
+print("divisão a / b") 
+print(a / b)
+
+#multiplicação
+print("multiplicação a * b")
+print(a * b) 
+
+#subtração
+print("subtração a - b")
+print(a - b) 
+
+#expoenciação
+print("expoenciação a ** b")
+print(a ** b)
+
+#modulo ou resto da divisão 
+print("modulo ou resto da divisão a % b")
+print(a % b) 
+
+#SAIDA
+
+soma a + b
+4
+
+divisão a / b
+1.0
+
+multiplicação a * b
+4
+
+subtração a - b
+0
+
+expoenciação a ** b
+4
+
+modulo ou resto da divisão a % b
+0

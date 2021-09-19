@@ -1,0 +1,29 @@
+A função Map pega uma lista e a transforma numa nova lista, executando algum tipo de operação em cada elemento. 
+a função List simplesmente converte a saída para o tipo de lista.
+
+ex 1:
+
+#funçao Map
+
+valor = [1,2,3,4,5,6,7]
+valor_dobrado = list(map(lambda i: i**2, valor))
+print(valor_dobrado)
+
+#saida
+
+[1, 4, 9, 16, 25, 36, 49]
+
+
+ex 2:
+
+def dobro(x):
+    return x*2
+
+valor = [1,2,3,4,5,6,7]
+valor_dobrado = map(dobro,valor)
+valor_dobrado = list(valor_dobrado)
+print(valor_dobrado)
+
+#saida
+
+[2, 4, 6, 8, 10, 12, 14]

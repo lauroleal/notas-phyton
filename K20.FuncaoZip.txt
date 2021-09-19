@@ -1,0 +1,19 @@
+#Função zip usada para concatenar duas ou mais listas
+
+ex 1:
+
+lista_1 = [1,2,3,4,5]
+lista_2 = ["boi","vaca","galinha","gato","lagarto"]
+lista_3 = ["Mamífero","Mamífero","ave","Mamífero","réptil"]
+
+for num, nome, esp in zip(lista_1,lista_2,lista_3):
+    print(num, nome, esp)
+
+
+#saida
+
+1 boi Mamífero
+2 vaca Mamífero
+3 galinha ave
+4 gato Mamífero
+5 lagarto réptil

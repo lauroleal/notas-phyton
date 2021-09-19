@@ -1,0 +1,80 @@
+
+
+ex 1:
+
+#conjuntos não permitem duplicidade
+conjunto = {1,2,3,4,5,6,7,7,8,8}
+print(conjunto)
+
+>>> {1,2,3,4,5,6,7,8}
+
+ex 2:
+
+#adicionando valores ao conjunto
+conjunto.add(9)
+print(conjunto)
+
+>>>  {1,2,3,4,5,6,7,8,9}
+
+ex 3:
+
+#removendo valores do conjunto
+conjunto.discard(5)
+print(conjunto)
+
+
+>>>  {1,2,3,4,6,7,8,9}
+
+
+ex 4:
+
+conjunto_1 = {1,2,3,4,5,6,7,7,8,8}
+conjunto_2 = {9,10,11,12,13}
+conjunto_unido = conjunto_1.union(conjunto_2)
+print(conjunto_unido)
+
+>>> {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13}
+
+ex 5:
+
+#busca no conjunto / intersecção
+conjunto_1 = {1,2,3,4,5,6,7,7,8,8}
+conjunto_2 = {9,10,11,12,13,5,6,4,3,2}
+busca_semelhante = conjunto_1.intersection(conjunto_2)
+print(busca_semelhante)
+
+>>> {2, 3, 4, 5, 6}
+
+ex 6:
+
+#busca de diferencia nos conjuntos
+
+conjunto_1 = {1,2,3,4,5,6,7,7,8,8}
+conjunto_2 = {9,10,11,12,13,5,6,4,3,2}
+conjunto_diferencia = conjunto_1.difference(conjunto_2)
+print(conjunto_diferencia)
+
+>>> {8, 1, 7}
+
+ex 7:
+
+#removendo duplicidade de listas
+
+lista = ["paz","amor","amor","oi","ola","paz","gato","cachorro"]
+print(lista)
+conjunto = set(lista)
+print(conjunto)
+conjunto = list(conjunto)
+print(conjunto)
+
+>>> ['paz', 'amor', 'amor', 'oi', 'ola', 'paz', 'gato', 'cachorro']
+       {'oi', 'ola', 'amor', 'paz', 'gato', 'cachorro'}
+        ['cachorro', 'ola', 'paz', 'amor', 'oi', 'gato']
+
+
+
+
+
+
+
+
